@@ -18,16 +18,16 @@ body {
     justify-content: center;
 }
 
-.one {
-    color: blue;
+.sunset-blunt {
+    color: rgb(192, 192, 240);
 }
 
-.two {
-    color: orange;
+.duality {
+    color: rgb(238, 155, 0);
 }
 
-.three {
-    color: green;
+.erotika {
+    color: rgb(19, 224, 19);
 }
 
 .item {
@@ -41,7 +41,7 @@ body {
 }
 
 .one {
-    color: blue;
+    color: rgb(34, 34, 116);
 }
 
 .two {
