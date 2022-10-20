@@ -76,7 +76,7 @@ body {
     color: orange;
 }
 
-.footer {
+.cards {
     display: flex;
     justify-content: center;
     color: rgb(177, 18, 39);
