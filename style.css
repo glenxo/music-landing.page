@@ -1,0 +1,83 @@
+body {
+    background-color: rgb(227, 241, 237);
+
+}
+
+.header {
+    color: rgb(255, 81, 0);
+    font-size: 500%;
+}
+
+.sub-header {
+    color: rgb(202, 70, 8);
+    font-size: 200%;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+.one {
+    color: blue;
+}
+
+.two {
+    color: orange;
+}
+
+.three {
+    color: green;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-row {
+    display: table-row;
+    justify-content: center;
+}
+
+.one {
+    color: blue;
+}
+
+.two {
+    color: orange;
+}
+
+.three {
+    color: green;
+}
+
+.four {
+    color: orange;
+}
+
+.five {
+    color: orange;
+}
+
+.six {
+    color: green;
+}
+
+.seven {
+    color: rgb(87, 87, 24);
+}
+
+.eight {
+    color: rgb(70, 70, 16);
+}
+
+.nine {
+    color: orange;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    color: rgb(177, 18, 39);
+}
