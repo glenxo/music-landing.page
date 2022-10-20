@@ -49,9 +49,9 @@ body {
 }
 
 audio {
-    margin-bottom: 20px;
+    margin: 80px;
     size: 200px;
-    width:600px;
+    width:300px;
     height:100px;
 }
 
