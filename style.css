@@ -40,6 +40,13 @@ body {
 .item {
     display: flex;
     justify-content: center;
+    color: rgb(202, 70, 8);
+    font-size: 200%;
+    font-weight: bold;
+    margin: 120px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
 }
 
 .flex-row {
