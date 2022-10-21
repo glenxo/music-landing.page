@@ -97,7 +97,7 @@ body {
     font-size: 400%;
     font-weight: bold;
     margin-top: 100px;
-    margin-bottom: 400px;
+    margin-bottom: 300px;
     border-radius: 10px;
     padding: 20px;
     text-align: center;
@@ -117,52 +117,74 @@ body {
 }
 
 audio {
-    margin: 80px;
+    margin: 0px;
     size: 200px;
     width:300px;
     height:100px;
     color: black;
 }
 
+p {
+    font-size: 200%;
+    font-weight: bold;
+    margin-left: 40px;
+}
 
 .one {
     color: rgb(123, 123, 255);
+    margin-left: 20%;
+
+    
 }
 
 .two {
     color: orange;
+    margin-left: 70%;
+    margin-right: 10%;
 }
 
 .three {
     color: green;
+    margin-left: 10%;
 }
 
 .four {
-    color: orange;
+    color: rgb(4, 182, 236);
+    margin-left: 70%;
+    margin-right: 10%;
 }
 
 .five {
-    color: orange;
+    color: rgb(255, 38, 0);
+    margin-left: 10%;
 }
 
 .six {
-    color: green;
+    color: rgb(10, 250, 10);
+    margin-left: 70%;
+    margin-right: 10%;
 }
 
 .seven {
-    color: rgb(252, 252, 141);
+    color: rgb(201, 80, 0);
+    margin-left: 10%;
 }
 
 .eigth {
-    color: rgb(202, 202, 51);
+    color: rgb(255, 255, 212);
+    margin-left: 70%;
+    margin-right: 10%;
 }
 
 .nine {
-    color: orange;
+    color: rgb(141, 9, 218);
+    margin-left: 10%;
 }
 
 .cards div{
     display: flex;
+    margin-top: 20%;
+    margin-bottom: 5%; 
     size: 600px;
     justify-content: center;
     color: rgb(224, 108, 124);
