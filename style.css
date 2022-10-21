@@ -1,11 +1,11 @@
 body {
-    background-color: rgb(20, 8, 8);
+    background-color: rgb(14, 9, 9);
     color: aliceblue;
 }
 
 .header {
-    color: rgb(250, 241, 237);
-    font-size: 900%;
+    color: rgb(192, 92, 50);
+    font-size: 1000%;
     font-weight: 500;
     font-family: Cambria, Cochin, 
     Georgia, Times, sans-serif;
@@ -17,7 +17,7 @@ body {
     -0.025em -.05em 0 rgba(0,255,0,.75),
     0.025em 0.05em 0 rgba(0,0,255,.75);
 
-    animation: glitch 8000ms infinite;
+    animation: glitch 24000ms infinite;
 }
 
 @keyframes glitch {
@@ -49,34 +49,45 @@ body {
 
 .sub-header {
     color: rgb(202, 70, 8);
-    font-size: 200%;
+    font-size: 400%;
     font-weight: bold;
-    margin: 200px;
+    margin-top: 400px;
+    margin-bottom: 400px;
     text-align: center;
+    text-transform: uppercase;
+    text-shadow: 
+    0.05em 0 0 rgba(255,0,0,.75),
+    -0.025em -.05em 0 rgba(0,255,0,.75),
+    0.025em 0.05em 0 rgba(0,0,255,.75);
+
+    animation: glitch 24000ms infinite;
 }
 
 .flex-container {
     display: flex;
     justify-content: center;
-    margin: 100px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    text-align: center;
 }
 
 .sunset-blunt {
     color: rgb(192, 192, 240);
-    margin-left: 200px;
-    margin-right: 200px;    
+    margin-left: 100px;
+    margin-right: 100px;    
 }
 
 .duality {
     color: rgb(238, 155, 0);
-    margin-left: 200px;
-    margin-right: 200px;  
+    margin-left: 100px;
+    margin-right: 100px;  
 }
 
 .erotika {
     color: rgb(19, 224, 19);
-    margin-left: 200px;
-    margin-right: 200px;  
+    margin-left: 100px;
+    margin-right: 100px; 
+    
 }
 
 .item {
@@ -85,10 +96,18 @@ body {
     color: rgb(202, 70, 8);
     font-size: 400%;
     font-weight: bold;
-    margin: 2   20px;
+    margin-top: 100px;
+    margin-bottom: 400px;
     border-radius: 10px;
     padding: 20px;
     text-align: center;
+    text-transform: uppercase;
+    text-shadow: 
+    0.05em 0 0 rgba(255,0,0,.75),
+    -0.025em -.05em 0 rgba(0,255,0,.75),
+    0.025em 0.05em 0 rgba(0,0,255,.75);
+
+    animation: glitch 24000ms infinite;
 }
 
 .flex-row {
@@ -102,6 +121,7 @@ audio {
     size: 200px;
     width:300px;
     height:100px;
+    color: black;
 }
 
 
@@ -141,8 +161,16 @@ audio {
     color: orange;
 }
 
-.cards {
+.cards div{
     display: flex;
+    size: 600px;
     justify-content: center;
     color: rgb(224, 108, 124);
+    text-transform: uppercase;
+    text-shadow: 
+    0.05em 0 0 rgba(255,0,0,.75),
+    -0.025em -.05em 0 rgba(0,255,0,.75),
+    0.025em 0.05em 0 rgba(0,0,255,.75);
+
+    animation: glitch 24000ms infinite;
 }
