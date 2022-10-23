@@ -1,10 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background-color: rgb(14, 9, 9);
+    background-color: rgb(238, 226, 226);
     color: aliceblue;
     font-family: sans-serif;
 }
 
 .header {
+    background-image: url('media-folder/Rectangle\ 2.png');
     font-family: sans-serif;
     color: rgb(255, 255, 255);
     font-size: 1000%;
@@ -48,6 +55,7 @@ body {
 
 
 .sub-header {
+    background-image: url('media-folder/Rectangle\ 3.png');
     font-family: sans-serif;
     color: rgb(202, 70, 8);
     font-size: 400%;
@@ -74,25 +82,36 @@ body {
 }
 
 .sunset-blunt {
+    background-image: url('media-folder/Rectangle\ 4.png');
     color: rgb(192, 192, 240);
     margin-left: 100px;
-    margin-right: 100px;    
+    margin-right: 100px; 
+    width:400px;
+    height: 400px;   
 }
 
 .duality {
+    background-image: url('media-folder/Rectangle\ 5.png');
     color: rgb(238, 155, 0);
     margin-left: 100px;
-    margin-right: 100px;  
+    margin-right: 100px;
+    width:400px;
+    height:400px;  
 }
 
 .erotika {
+    background-image: url('media-folder/Rectangle\ 6.png');
     color: rgb(19, 224, 19);
     margin-left: 100px;
-    margin-right: 100px; 
+    margin-right: 100px;
+    width:400px;
+    height:400px; 
     
 }
 
 .item {
+    background-image: url('media-folder/Rectangle\ 7.png');
+
     font-family: sans-serif;
     display: flex;
     justify-content: center;
@@ -115,7 +134,6 @@ body {
 
 .flex-row {
     display: table-row;
-    justify-content: center;
     
 }
 
@@ -132,57 +150,96 @@ p {
     font-size: 200%;
     font-weight: bold;
     margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
 }
 
 .one {
+
+    background-image: url('media-folder/Rectangle\ 8.png');
+
     color: rgb(123, 123, 255);
-    margin-left: 20%;
+    margin-left: 40%;
+    margin-right: -40%;
+    margin-top: 10px;
+    margin-bottom: 10px;
 
     
 }
 
 .two {
+    background-image: url('media-folder/Rectangle\ 9.png');
+
     color: orange;
     margin-left: 70%;
     margin-right: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .three {
+    background-image: url('media-folder/Rectangle\ 10.png');
+
     color: green;
     margin-left: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .four {
+    background-image: url('media-folder/Rectangle\ 11.png');
+
     color: rgb(4, 182, 236);
     margin-left: 70%;
     margin-right: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .five {
+    background-image: url('media-folder/Rectangle\ 12.png');
+
     color: rgb(255, 38, 0);
     margin-left: 10%;
 }
 
 .six {
+    background-image: url('media-folder/Rectangle\ 15.png');
+
     color: rgb(10, 250, 10);
     margin-left: 70%;
     margin-right: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .seven {
+    background-image: url('media-folder/Rectangle\ 16.png');
+
     color: rgb(201, 80, 0);
     margin-left: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .eigth {
+    background-image: url('media-folder/Rectangle\ 17.png');
+
     color: rgb(255, 255, 212);
     margin-left: 70%;
     margin-right: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .nine {
+    background-image: url('media-folder/Rectangle\ 18.png');
+
     color: rgb(141, 9, 218);
     margin-left: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .cards div{
