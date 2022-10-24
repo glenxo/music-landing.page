@@ -46,6 +46,8 @@ body {
     object-fit: contain;
     height: 450px;
     width: 1360px;
+    text-shadow: 0px 4px 4px rgba(170, 164, 150, 0.849);
+    filter: blur(0.20px); 
 
 }
 
@@ -57,6 +59,11 @@ section {
     align-items: center;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.section1  {
+    background-image: url('media-folder/Ellipse 3.png');
+    
 }
 
 a {
@@ -112,10 +119,13 @@ a {
 .item {
     background-image: url('media-folder/Rectangle\ 7.png');
     font-size: 150px;
+    font-weight: 700;
     font-family: sans-serif;
-    color: rgb(66, 56, 56);
+    color: rgba(184, 14, 14, 0.445);
     height: 365px;
     width: 1360px;  
+    text-shadow: 0px 4px 4px rgba(250, 2, 2, 0.849);
+    filter: blur(0.20px); 
 }
 
 audio {
@@ -138,6 +148,14 @@ p {
 
 }
 
+h3 {
+    font-family: sans-serif;
+    font-size: 110%;
+}
+
+h4 {
+    font-family: sans-serif;
+}
 
 
 .cards div{
