@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: rgb(8, 2, 2);
+    background-color: rgb(12, 10, 10);
     color: rgb(72, 92, 110);
     font-family: sans-serif;
 }
@@ -27,7 +27,7 @@ body {
     }
 
     img {
-        margin-top:4%;
+    margin-top:4%;
     float: right;
     margin-right: 4%;
     }
@@ -98,22 +98,6 @@ section {
     width: 1360px;  
 }
 
-.flex-row {
-    display: table-row;
-    font-family: sans-serif;
-    color: rgb(165, 136, 136);
-    font-size: 130%;
-    font-weight: 600;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    text-align: auto;;
-    object-fit: contain;
-    height: 320px;
-    width: 432px; 
-    
-}
-
 audio {
     margin: 0px;
     size: 200px;
@@ -124,10 +108,10 @@ audio {
 
 p {
     font-family: sans-serif;
-    font-size: 400%;
+    font-size: 300%;
     font-weight: bold;
     margin-left: 40px;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 10px;
     width:300px;
     height:100px;
@@ -137,24 +121,13 @@ p {
 .one {
 
     background-image: url('media-folder/Rectangle\ 8.png');
-    
-    font-family: sans-serif;
-    color: rgb(165, 136, 136);
-    font-size: 130%;
-    font-weight: 600;
-    margin-left: 600px;
-    margin-right: auto;
+    width: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 20px;
-    text-align: center;;
-    object-fit: contain;
-    height: 320px;
-    width: 432px; 
-    background-repeat:   no-repeat;
-    background-position: center center; 
+    margin-bottom: 20px;
 
-    
-
-    
 }
 
 .two {
@@ -163,15 +136,17 @@ p {
     color: rgb(165, 136, 136);
     font-size: 130%;
     font-weight: 600;
-    margin-left: auto;
+    margin-left: 20px;
     margin-right: auto;
-    margin-top: 20px;
-    text-align: left;;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;;
     object-fit: contain;
     height: 320px;
     width: 432px; 
     background-repeat:   no-repeat;
     background-position: center center; 
+    border-radius: 1em; 
 }
 
 .three {
@@ -180,15 +155,17 @@ p {
     color: rgb(165, 136, 136);
     font-size: 130%;
     font-weight: 600;
-    margin-left: auto;
+    margin-left: 900px;
     margin-right: auto;
-    margin-top: 20px;
-    text-align: left;;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;;
     object-fit: contain;
     height: 320px;
     width: 432px; 
     background-repeat:   no-repeat;
     background-position: center center; 
+    border-radius: 1em;
 }
 
 .four {
@@ -197,13 +174,17 @@ p {
     color: rgb(165, 136, 136);
     font-size: 130%;
     font-weight: 600;
-    margin-left: auto;
+    margin-left: 20px;
     margin-right: auto;
-    margin-top: 20px;
-    text-align: left;;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;;
     object-fit: contain;
     height: 320px;
     width: 432px; 
+    background-repeat:   no-repeat;
+    background-position: center center; 
+    border-radius: 1em;
 }
 
 .five {
@@ -212,15 +193,17 @@ p {
     color: rgb(165, 136, 136);
     font-size: 130%;
     font-weight: 600;
-    margin-left: auto;
+    margin-left: 900px;
     margin-right: auto;
-    margin-top: 20px;
-    text-align: left;;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;;
     object-fit: contain;
     height: 320px;
     width: 432px; 
     background-repeat:   no-repeat;
     background-position: center center; 
+    border-radius: 1em;
 }
 
 .six {
@@ -229,13 +212,17 @@ p {
     color: rgb(165, 136, 136);
     font-size: 130%;
     font-weight: 600;
-    margin-left: auto;
+    margin-left: 20px;
     margin-right: auto;
-    margin-top: 20px;
-    text-align: left;;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;;
     object-fit: contain;
     height: 320px;
     width: 432px; 
+    background-repeat:   no-repeat;
+    background-position: center center; 
+    border-radius: 1em;
 }
 
 .seven {
@@ -244,15 +231,17 @@ p {
     color: rgb(165, 136, 136);
     font-size: 130%;
     font-weight: 600;
-    margin-left: auto;
+    margin-left: 900px;
     margin-right: auto;
-    margin-top: 20px;
-    text-align: left;;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;;
     object-fit: contain;
     height: 320px;
     width: 432px; 
     background-repeat:   no-repeat;
     background-position: center center; 
+    border-radius: 1em;
 }
 
 .eigth {
@@ -261,13 +250,17 @@ p {
     color: rgb(165, 136, 136);
     font-size: 130%;
     font-weight: 600;
-    margin-left: auto;
+    margin-left: 20px;
     margin-right: auto;
-    margin-top: 20px;
-    text-align: left;;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;;
     object-fit: contain;
     height: 320px;
     width: 432px; 
+    background-repeat:   no-repeat;
+    background-position: center center; 
+    border-radius: 1em;
 }
 
 .nine {
@@ -276,15 +269,17 @@ p {
     color: rgb(165, 136, 136);
     font-size: 130%;
     font-weight: 600;
-    margin-left: auto;
+    margin-left: 900px;
     margin-right: auto;
-    margin-top: 20px;
-    text-align: left;;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;;
     object-fit: contain;
     height: 320px;
     width: 432px; 
     background-repeat:   no-repeat;
     background-position: center center; 
+    border-radius: 1em;
 }
 
 .cards div{
