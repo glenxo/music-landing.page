@@ -1,139 +1,116 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    padding: auto;
     box-sizing: border-box;
 }
 
 body {
-    background-color: rgb(238, 226, 226);
-    color: aliceblue;
+    background-color: rgb(8, 2, 2);
+    color: rgb(72, 92, 110);
     font-family: sans-serif;
 }
+
 
 .header {
     background-image: url('media-folder/Rectangle\ 2.png');
     font-family: sans-serif;
-    color: rgb(255, 255, 255);
+    color: rgb(165, 136, 136);
     font-size: 1000%;
     font-weight: 600;
-    margin: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
     text-align: center;
-    text-transform: uppercase;
-    text-shadow: 
-    0.05em 0 0 rgba(241, 241, 241, 0.75),
-    -0.025em -.05em 0 rgba(145, 145, 145, 0.75),
-    0.025em 0.05em 0 rgba(3, 3, 3, 0.75);
-
-    animation: glitch 24000ms infinite;
-}
-
-@keyframes glitch {
-    0% {
-        text-shadow: 
-        0.05em 0 0 rgba(255,0,0,.75),
-        -0.025em -.05em 0 rgba(255, 255, 255, 0.75),
-        0.025em 0.05em 0 rgba(7, 7, 10, 0.75);
-    } 
-    15% {
-        text-shadow: 
-        -0.05em -0.025em 0 rgba(255,0,0,.75),
-        0.025em 0.025em 0 rgba(183, 187, 183, 0.75),
-        -0.05em 0.05em 0 rgba(0,0,255,.75);
-    }    50% {
-        text-shadow: 
-        0.025em 0.05em 0 rgba(255,0,0,.75),
-        0.05em -0.025em 0 rgba(250, 250, 250, 0.75),
-        0 -0.05em 0 rgba(0,0,255,.75);
-    }    100% {
-        text-shadow: 
-        -0.025em 0 0 rgba(255,0,0,.75),
-        -0.025em -0.025em 0 rgba(156, 156, 156, 0.75),
-        -0.025em -0.05em 0 rgba(0,0,255,.75);
+    object-fit: contain;
+    height: 680px;
+    width: 1360px;
     }
-}
-    
 
+    img {
+        margin-top:4%;
+    float: right;
+    margin-right: 4%;
+    }
 
 .sub-header {
     background-image: url('media-folder/Rectangle\ 3.png');
     font-family: sans-serif;
-    color: rgb(202, 70, 8);
-    font-size: 400%;
-    font-weight: bold;
-    margin-top: 400px;
-    margin-bottom: 400px;
-    text-align: center;
-    text-transform: uppercase;
-    text-shadow: 
-    0.05em 0 0 rgba(255,0,0,.75),
-    -0.025em -.05em 0 rgba(0,255,0,.75),
-    0.025em 0.05em 0 rgba(0,0,255,.75);
+    color: rgb(165, 136, 136);
+    font-size: 130%;
+    font-weight: 600;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    text-align: left;;
+    object-fit: contain;
+    height: 450px;
+    width: 1360px;
 
-    animation: glitch 24000ms infinite;
 }
 
-.flex-container {
-    font-family: sans-serif;
+section {
+    width: 1360px;
     display: flex;
     justify-content: center;
-    margin-top: 200px;
-    margin-bottom: 200px;
-    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
+
+
 
 .sunset-blunt {
     background-image: url('media-folder/Rectangle\ 4.png');
-    color: rgb(192, 192, 240);
-    margin-left: 100px;
-    margin-right: 100px; 
-    width:400px;
-    height: 400px;   
+    font-family: sans-serif;
+    color: rgb(165, 136, 136);
+    height: 320px;
+    width: 432px;  
 }
 
 .duality {
     background-image: url('media-folder/Rectangle\ 5.png');
-    color: rgb(238, 155, 0);
-    margin-left: 100px;
-    margin-right: 100px;
-    width:400px;
-    height:400px;  
+    font-family: sans-serif;
+    color: rgb(165, 136, 136);
+    font-size: 130%;
+    font-weight: 600;
+    height: 320px;
+    width: 432px; 
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 .erotika {
     background-image: url('media-folder/Rectangle\ 6.png');
-    color: rgb(19, 224, 19);
-    margin-left: 100px;
-    margin-right: 100px;
-    width:400px;
-    height:400px; 
-    
+    font-family: sans-serif;
+    color: rgb(165, 136, 136);
+    height: 320px;
+    width: 432px;
 }
 
 .item {
     background-image: url('media-folder/Rectangle\ 7.png');
+    font-size: 130px;
 
     font-family: sans-serif;
-    display: flex;
-    justify-content: center;
-    color: rgb(202, 70, 8);
-    font-size: 400%;
-    font-weight: bold;
-    margin-top: 100px;
-    margin-bottom: 300px;
-    border-radius: 10px;
-    padding: 20px;
-    text-align: center;
-    text-transform: uppercase;
-    text-shadow: 
-    0.05em 0 0 rgba(255,0,0,.75),
-    -0.025em -.05em 0 rgba(0,255,0,.75),
-    0.025em 0.05em 0 rgba(0,0,255,.75);
-
-    animation: glitch 24000ms infinite;
+    color: rgb(165, 136, 136);
+    height: 365px;
+    width: 1360px;  
 }
 
 .flex-row {
     display: table-row;
+    font-family: sans-serif;
+    color: rgb(165, 136, 136);
+    font-size: 130%;
+    font-weight: 600;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    text-align: auto;;
+    object-fit: contain;
+    height: 320px;
+    width: 432px; 
     
 }
 
@@ -147,99 +124,167 @@ audio {
 
 p {
     font-family: sans-serif;
-    font-size: 200%;
+    font-size: 400%;
     font-weight: bold;
     margin-left: 40px;
     margin-top: 10px;
     margin-bottom: 10px;
+    width:300px;
+    height:100px;
 
 }
 
 .one {
 
     background-image: url('media-folder/Rectangle\ 8.png');
+    
+    font-family: sans-serif;
+    color: rgb(165, 136, 136);
+    font-size: 130%;
+    font-weight: 600;
+    margin-left: 600px;
+    margin-right: auto;
+    margin-top: 20px;
+    text-align: center;;
+    object-fit: contain;
+    height: 320px;
+    width: 432px; 
+    background-repeat:   no-repeat;
+    background-position: center center; 
 
-    color: rgb(123, 123, 255);
-    margin-left: 40%;
-    margin-right: -40%;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    
 
     
 }
 
 .two {
     background-image: url('media-folder/Rectangle\ 9.png');
-
-    color: orange;
-    margin-left: 70%;
-    margin-right: 10%;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    font-family: sans-serif;
+    color: rgb(165, 136, 136);
+    font-size: 130%;
+    font-weight: 600;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    text-align: left;;
+    object-fit: contain;
+    height: 320px;
+    width: 432px; 
+    background-repeat:   no-repeat;
+    background-position: center center; 
 }
 
 .three {
     background-image: url('media-folder/Rectangle\ 10.png');
-
-    color: green;
-    margin-left: 10%;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    font-family: sans-serif;
+    color: rgb(165, 136, 136);
+    font-size: 130%;
+    font-weight: 600;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    text-align: left;;
+    object-fit: contain;
+    height: 320px;
+    width: 432px; 
+    background-repeat:   no-repeat;
+    background-position: center center; 
 }
 
 .four {
     background-image: url('media-folder/Rectangle\ 11.png');
-
-    color: rgb(4, 182, 236);
-    margin-left: 70%;
-    margin-right: 10%;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    font-family: sans-serif;
+    color: rgb(165, 136, 136);
+    font-size: 130%;
+    font-weight: 600;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    text-align: left;;
+    object-fit: contain;
+    height: 320px;
+    width: 432px; 
 }
 
 .five {
     background-image: url('media-folder/Rectangle\ 12.png');
-
-    color: rgb(255, 38, 0);
-    margin-left: 10%;
+    font-family: sans-serif;
+    color: rgb(165, 136, 136);
+    font-size: 130%;
+    font-weight: 600;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    text-align: left;;
+    object-fit: contain;
+    height: 320px;
+    width: 432px; 
+    background-repeat:   no-repeat;
+    background-position: center center; 
 }
 
 .six {
     background-image: url('media-folder/Rectangle\ 15.png');
-
-    color: rgb(10, 250, 10);
-    margin-left: 70%;
-    margin-right: 10%;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    font-family: sans-serif;
+    color: rgb(165, 136, 136);
+    font-size: 130%;
+    font-weight: 600;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    text-align: left;;
+    object-fit: contain;
+    height: 320px;
+    width: 432px; 
 }
 
 .seven {
     background-image: url('media-folder/Rectangle\ 16.png');
-
-    color: rgb(201, 80, 0);
-    margin-left: 10%;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    font-family: sans-serif;
+    color: rgb(165, 136, 136);
+    font-size: 130%;
+    font-weight: 600;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    text-align: left;;
+    object-fit: contain;
+    height: 320px;
+    width: 432px; 
+    background-repeat:   no-repeat;
+    background-position: center center; 
 }
 
 .eigth {
     background-image: url('media-folder/Rectangle\ 17.png');
-
-    color: rgb(255, 255, 212);
-    margin-left: 70%;
-    margin-right: 10%;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    font-family: sans-serif;
+    color: rgb(165, 136, 136);
+    font-size: 130%;
+    font-weight: 600;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    text-align: left;;
+    object-fit: contain;
+    height: 320px;
+    width: 432px; 
 }
 
 .nine {
     background-image: url('media-folder/Rectangle\ 18.png');
-
-    color: rgb(141, 9, 218);
-    margin-left: 10%;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    font-family: sans-serif;
+    color: rgb(165, 136, 136);
+    font-size: 130%;
+    font-weight: 600;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    text-align: left;;
+    object-fit: contain;
+    height: 320px;
+    width: 432px; 
+    background-repeat:   no-repeat;
+    background-position: center center; 
 }
 
 .cards div{
