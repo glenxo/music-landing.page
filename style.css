@@ -36,7 +36,7 @@ body {
 .sub-header {
     background-image: url('media-folder/Rectangle\ 3.png');
     font-family: sans-serif;
-    color: rgb(165, 136, 136);
+    color: rgb(119, 104, 104);
     font-size: 130%;
     font-weight: 600;
     margin-left: auto;
@@ -59,7 +59,11 @@ section {
     margin-bottom: 20px;
 }
 
+a {
+    color: rgb(119, 104, 104);
+    text-decoration: none;
 
+}
 
 .sunset-blunt {
     background-image: url('media-folder/Rectangle\ 4.png');
