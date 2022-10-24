@@ -60,7 +60,7 @@ section {
 }
 
 a {
-    color: rgb(119, 104, 104);
+    color: rgb(145, 122, 122);
     text-decoration: none;
 
 }
@@ -68,9 +68,14 @@ a {
 .sunset-blunt {
     background-image: url('media-folder/Rectangle\ 4.png');
     font-family: sans-serif;
-    color: rgb(165, 136, 136);
+    color: rgb(117, 86, 86);
     height: 320px;
-    width: 432px;  
+    width: 432px; 
+    text-shadow: 0px 4px 4px rgba(236, 164, 8, 0.849);
+    filter: blur(0.20px); 
+    font-size: 400%;
+    font-weight: 600;
+    margin-left: auto;
 }
 
 .duality {
@@ -78,12 +83,17 @@ a {
     font-family: sans-serif;
     color: rgb(165, 136, 136);
     font-size: 130%;
-    font-weight: 600;
+    font-weight: 700;
     height: 320px;
     width: 432px; 
     align-items: center;
     margin-left: 30px;
     margin-right: 30px;
+    text-shadow: 0px 4px 4px rgba(95, 196, 65, 0.849);
+    filter: blur(0.20px); 
+    font-size: 600%;
+    font-weight: 600;
+    margin-left: auto;
 }
 
 .erotika {
@@ -92,6 +102,11 @@ a {
     color: rgb(165, 136, 136);
     height: 320px;
     width: 432px;
+    text-shadow: 0px 4px 4px rgba(200, 19, 206, 0.849);
+    filter: blur(0.20px); 
+    font-size: 600%;
+    font-weight: 600;
+    margin-left: auto;
 }
 
 .item {
