@@ -14,8 +14,9 @@ body {
 .header {
     background-image: url('media-folder/Rectangle\ 2.png');
     font-family: sans-serif;
-    color: rgb(165, 136, 136);
-    font-size: 1000%;
+    color: rgb(247, 218, 218);
+    border-radius: 2%;
+    font-size: 50%;
     font-weight: 600;
     margin-left: auto;
     margin-right: auto;
@@ -47,6 +48,7 @@ body {
     width: 1360px;
 
 }
+
 
 section {
     width: 1360px;
@@ -90,10 +92,9 @@ section {
 
 .item {
     background-image: url('media-folder/Rectangle\ 7.png');
-    font-size: 130px;
-
+    font-size: 150px;
     font-family: sans-serif;
-    color: rgb(165, 136, 136);
+    color: rgb(66, 56, 56);
     height: 365px;
     width: 1360px;  
 }
@@ -108,9 +109,9 @@ audio {
 
 p {
     font-family: sans-serif;
-    font-size: 300%;
+    font-size: 200%;
     font-weight: bold;
-    margin-left: 40px;
+    margin-left: 50px;
     margin-top: 20px;
     margin-bottom: 10px;
     width:300px;
@@ -118,169 +119,7 @@ p {
 
 }
 
-.one {
 
-    background-image: url('media-folder/Rectangle\ 8.png');
-    width: 360px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-
-}
-
-.two {
-    background-image: url('media-folder/Rectangle\ 9.png');
-    font-family: sans-serif;
-    color: rgb(165, 136, 136);
-    font-size: 130%;
-    font-weight: 600;
-    margin-left: 20px;
-    margin-right: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    text-align: center;;
-    object-fit: contain;
-    height: 320px;
-    width: 432px; 
-    background-repeat:   no-repeat;
-    background-position: center center; 
-    border-radius: 1em; 
-}
-
-.three {
-    background-image: url('media-folder/Rectangle\ 10.png');
-    font-family: sans-serif;
-    color: rgb(165, 136, 136);
-    font-size: 130%;
-    font-weight: 600;
-    margin-left: 900px;
-    margin-right: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    text-align: center;;
-    object-fit: contain;
-    height: 320px;
-    width: 432px; 
-    background-repeat:   no-repeat;
-    background-position: center center; 
-    border-radius: 1em;
-}
-
-.four {
-    background-image: url('media-folder/Rectangle\ 11.png');
-    font-family: sans-serif;
-    color: rgb(165, 136, 136);
-    font-size: 130%;
-    font-weight: 600;
-    margin-left: 20px;
-    margin-right: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    text-align: center;;
-    object-fit: contain;
-    height: 320px;
-    width: 432px; 
-    background-repeat:   no-repeat;
-    background-position: center center; 
-    border-radius: 1em;
-}
-
-.five {
-    background-image: url('media-folder/Rectangle\ 12.png');
-    font-family: sans-serif;
-    color: rgb(165, 136, 136);
-    font-size: 130%;
-    font-weight: 600;
-    margin-left: 900px;
-    margin-right: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    text-align: center;;
-    object-fit: contain;
-    height: 320px;
-    width: 432px; 
-    background-repeat:   no-repeat;
-    background-position: center center; 
-    border-radius: 1em;
-}
-
-.six {
-    background-image: url('media-folder/Rectangle\ 15.png');
-    font-family: sans-serif;
-    color: rgb(165, 136, 136);
-    font-size: 130%;
-    font-weight: 600;
-    margin-left: 20px;
-    margin-right: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    text-align: center;;
-    object-fit: contain;
-    height: 320px;
-    width: 432px; 
-    background-repeat:   no-repeat;
-    background-position: center center; 
-    border-radius: 1em;
-}
-
-.seven {
-    background-image: url('media-folder/Rectangle\ 16.png');
-    font-family: sans-serif;
-    color: rgb(165, 136, 136);
-    font-size: 130%;
-    font-weight: 600;
-    margin-left: 900px;
-    margin-right: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    text-align: center;;
-    object-fit: contain;
-    height: 320px;
-    width: 432px; 
-    background-repeat:   no-repeat;
-    background-position: center center; 
-    border-radius: 1em;
-}
-
-.eigth {
-    background-image: url('media-folder/Rectangle\ 17.png');
-    font-family: sans-serif;
-    color: rgb(165, 136, 136);
-    font-size: 130%;
-    font-weight: 600;
-    margin-left: 20px;
-    margin-right: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    text-align: center;;
-    object-fit: contain;
-    height: 320px;
-    width: 432px; 
-    background-repeat:   no-repeat;
-    background-position: center center; 
-    border-radius: 1em;
-}
-
-.nine {
-    background-image: url('media-folder/Rectangle\ 18.png');
-    font-family: sans-serif;
-    color: rgb(165, 136, 136);
-    font-size: 130%;
-    font-weight: 600;
-    margin-left: 900px;
-    margin-right: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    text-align: center;;
-    object-fit: contain;
-    height: 320px;
-    width: 432px; 
-    background-repeat:   no-repeat;
-    background-position: center center; 
-    border-radius: 1em;
-}
 
 .cards div{
     display: flex;
@@ -295,5 +134,5 @@ p {
     -0.025em -.05em 0 rgba(0,255,0,.75),
     0.025em 0.05em 0 rgba(0,0,255,.75);
 
-    animation: glitch 24000ms infinite;
+
 }
