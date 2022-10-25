@@ -119,13 +119,13 @@ a {
 .item {
     background-image: url('media-folder/Rectangle\ 7.png');
     font-size: 150px;
-    font-weight: 700;
+    font-weight: 300;
     font-family: sans-serif;
-    color: rgba(184, 14, 14, 0.445);
+    color: rgba(250, 19, 19, 0.74);
     height: 365px;
     width: 1360px;  
-    text-shadow: 0px 4px 4px rgba(250, 2, 2, 0.849);
-    filter: blur(0.20px); 
+    text-shadow: 0px 4px 4px rgba(19, 8, 8, 0.849);
+    filter: blur(0.40px); 
 }
 
 audio {
@@ -154,6 +154,16 @@ h3 {
 }
 
 h4 {
+    font-family: sans-serif;
+    font-size: 70%;
+}
+
+h5 {
+    font-family: sans-serif;
+    font-size: 18%;
+}
+
+h6 {
     font-family: sans-serif;
 }
 
