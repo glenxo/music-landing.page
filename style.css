@@ -129,10 +129,10 @@ a {
 }
 
 audio {
-    margin: 0px;
-    size: 200px;
-    width:400px;
-    height:100px;
+    margin: 20px;
+    size: 300px;
+    width:350px;
+    height: 100px;
     color: black;
 }
 
