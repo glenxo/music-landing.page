@@ -3,10 +3,8 @@
     padding: auto;
     box-sizing: border-box;
     font-family: @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
-    
-    body {
-      font-family: 'Poppins', sans-serif;
-    };
+    font-family: 'Poppins', sans-serif;
+
 }
 
 body {
@@ -77,16 +75,7 @@ section {
     
 }
 
-div {
-    background-image:url('media-folder/image.png');
-    background-repeat:no-repeat;
-    /* Ellipse 11 */
 
-
-background: rgba(93, 245, 0, 0.28);
-filter: blur(375px);
-
-}
 
 
 a {
@@ -160,6 +149,7 @@ audio {
 }
 
 p {
+    
     font-family: sans-serif;
     font-size: 230%;
     margin-left: 50px;
