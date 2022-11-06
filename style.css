@@ -10,10 +10,11 @@
 }
 
 body {
-    background-color: rgba(9, 2, 30, 0.842);
+    background-color: rgba(0, 0, 0, 0.842);
     color: rgb(72, 92, 110);
     font-family: poppins; sans-serif;
 }
+
 
 
 .header {
@@ -75,6 +76,18 @@ section {
     background-image: url('media-folder/Ellipse 3.png');
     
 }
+
+div {
+    background-image:url('media-folder/image.png');
+    background-repeat:no-repeat;
+    /* Ellipse 11 */
+
+
+background: rgba(93, 245, 0, 0.28);
+filter: blur(375px);
+
+}
+
 
 a {
     color: rgb(145, 122, 122);
